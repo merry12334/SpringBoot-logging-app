@@ -22,5 +22,21 @@ public class AppRestController {
 		logger.info("greetMsg() execution ended...");
 		return msg;
 	}
+      
+
+               private Logger logger= LoggerFactory.getLogger(AppRestController.class);
+
+	@GetMapping("/greet")
+	public String welcometMsg() {
+
+		logger.debug("this is debug msg from greet.....");
+		logger.info("greetMsg() execution started...");
+		String msg = "Good Morning...";
+
+		logger.warn("This is warning from greet method...");
+
+		logger.info("greetMsg() execution ended...");
+		return msg;
+	}
 
 }
