@@ -1,0 +1,20 @@
+2025-05-17 11:39:54,480 [restartedMain] INFO  in.ashokit.Application                             - Starting Application using Java 17.0.12 with PID 5200 (C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\JRTP\07-logging-Rolling-xml\target\classes started by HP in C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\JRTP\07-logging-Rolling-xml)
+2025-05-17 11:39:54,483 [restartedMain] INFO  in.ashokit.Application                             - No active profile set, falling back to 1 default profile: "default"
+2025-05-17 11:39:54,599 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-17 11:39:54,601 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-17 11:39:56,087 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2025-05-17 11:39:56,107 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-17 11:39:56,112 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2025-05-17 11:39:56,113 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-17 11:39:56,189 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2025-05-17 11:39:56,190 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1587 ms
+2025-05-17 11:39:56,781 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2025-05-17 11:39:56,816 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-17 11:39:56,856 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path '/'
+2025-05-17 11:39:56,888 [restartedMain] INFO  in.ashokit.Application                             - Started Application in 3.226 seconds (process running for 4.684)
+2025-05-17 11:41:21,356 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-17 11:41:21,356 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2025-05-17 11:41:21,359 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2025-05-17 11:41:21,448 [http-nio-8080-exec-1] INFO  in.ashokit.rest.AppRestController                  - greetMsg() execution started...
+2025-05-17 11:41:21,449 [http-nio-8080-exec-1] WARN  in.ashokit.rest.AppRestController                  - This is warning from greet method...
+2025-05-17 11:41:21,449 [http-nio-8080-exec-1] INFO  in.ashokit.rest.AppRestController                  - greetMsg() execution ended...
